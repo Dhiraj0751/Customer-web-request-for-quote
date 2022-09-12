@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.854" height="25.854" viewBox="0 0 25.854 25.854">
+  <g id="Group_5751" data-name="Group 5751" transform="translate(0)">
+    <g id="Ellipse_138" data-name="Ellipse 138" transform="translate(3.61 3.236)" fill="#fff" stroke="#0a83ea" stroke-width="1">
+      <ellipse cx="9.387" cy="9.401" rx="9.387" ry="9.401" stroke="none"/>
+      <ellipse cx="9.387" cy="9.401" rx="8.887" ry="8.901" fill="none"/>
+    </g>
+    <ellipse id="Ellipse_139" data-name="Ellipse 139" cx="5.055" cy="5.062" rx="5.055" ry="5.062" transform="translate(7.943 7.575)" fill="#0a83ea"/>
+    <g id="Group_5749" data-name="Group 5749" transform="translate(13.141 0)">
+      <line id="Line_563" data-name="Line 563" y1="4.022" fill="none" stroke="#0a83ea" stroke-width="1"/>
+      <line id="Line_564" data-name="Line 564" y1="4.022" transform="translate(0 21.832)" fill="none" stroke="#0a83ea" stroke-width="1"/>
+    </g>
+    <g id="Group_5750" data-name="Group 5750" transform="translate(25.854 12.708) rotate(90)">
+      <line id="Line_563-2" data-name="Line 563" y1="3.878" transform="translate(0 0)" fill="none" stroke="#0a83ea" stroke-width="1"/>
+      <line id="Line_564-2" data-name="Line 564" y1="3.878" transform="translate(0 21.976)" fill="none" stroke="#0a83ea" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
