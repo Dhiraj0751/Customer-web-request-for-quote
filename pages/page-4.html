@@ -9,20 +9,33 @@
   <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Home page-4</title>
+  <title>page-4</title>
 </head>
 <body>
     <div class="top-menu" style="width: 1366px; height: 768px; opacity: 1; top: 0px; left: 0px; background-color: #F7F8F9; background-repeat: no-repeat;">
       <header>
-        <div class="main" style="background-color: #1D426D; width: 1366px; height: 70px;">
+        <div class="menu_bar" style="background-color: #1D426D; width: 1366px; height: 70px;">
             <nav>
-                <ul class="flex">
+                <ul class="flex sub_menu">
                     <li style="padding-left: 126px; padding-top: 24px; padding-bottom: 24.74px;"><img src="images.svg/Group 7657.svg"></li>
                     <li style="padding-left: 478.97px; padding-top: 35.56px;"><img src="images.svg/Path 74882.svg"></li>
                     <li style="padding-left: 6px; padding-top: 26px; padding-bottom: 25px; color: #FFFFFF; font-size: 14px; opacity: 1;">All Services</li>
                     <li style="padding-left: 64px; padding-top: 26px; padding-bottom: 25px; font-size: 14px; color: #FFFFFF; opacity: 1;">Join as a Partner</li>
                     <li style="padding-left: 56px; padding-top: 26px; padding-bottom: 25px; font-size: 14px; color: #FFFFFF; opacity: 1;">Help</li>
-                    <li class="flex" style="width: 133px; height: 36px; background-color: #00AAFF; border-radius: 19px; margin-left: 38.87px; margin-top: 18px; margin-bottom: 16px;"><img src="images.png/Ellipse 553.png" style="padding-left: 3px; padding-top: 3px; padding-bottom:3px;"><span style="font-size: 14px; padding-left: 11px; padding-top: 8px; padding-bottom: 9px; color: #FFFFFF; opacity: 1;">Account</span><span style="padding-left: 8px; padding-top: 15px; padding-bottom: 15px;"><img src="images.svg/Path 74882-2.svg"></span></li>
+                    <a href="#" aria-haspopup="true" aria-expanded="false"><li class="flex" style="width: 133px; height: 36px; background-color: #00AAFF; border-radius: 19px; margin-left: 38.87px; margin-top: 18px; margin-bottom: 16px;"><img src="images.png/Ellipse 553.png" style="padding-left: 3px; padding-top: 3px; padding-bottom:3px;"><span style="font-size: 14px; padding-left: 11px; padding-top: 8px; padding-bottom: 9px; color: #FFFFFF; opacity: 1;">Account</span><span style="padding-left: 8px; padding-top: 15px; padding-bottom: 15px;"><img src="images.svg/Path 74882-2.svg"></span>
+          
+                        <ul class="dropdown_menu" style="margin-left: -75.5px; margin-top: 52px; position: absolute; background-color: #FFFFFF; width: 210px; height: 310px; border-radius: 0px 0px 10px 10px; box-shadow: 0px 10px 30px #00000029;">
+                          <li style="font-size: 14px; color: #1D426D; padding-left: 42px; padding-top: 19px; padding-right: 105px; opacity: 1;">My Profile</li>
+                          <li style="font-size: 14px; color: #1D426D; padding-left: 42px; padding-top: 12px; padding-right: 111px; opacity: 1;">Bookings</li>
+                          <li style="font-size: 14px; color: #1D426D; padding-left: 42px; padding-top: 12px; padding-right: 123px; opacity: 1;">Quotes</li>
+                          <li style="font-size: 14px; color: #1D426D; padding-left: 42px; padding-top: 12px; padding-right: 35px; opacity: 1;">Merrill Cash</li>
+                          <li style="font-size: 14px; color: #1D426D; padding-left: 42px; padding-top: 12px; padding-right: 51px; opacity: 1;">Manage Addresses</li>
+                          <li style="font-size: 14px; color: #1D426D; padding-left: 42px; padding-top: 12px; padding-right: 26px; opacity: 1;">Payment Methods</li>
+                          <li style="font-size: 14px; color: #1D426D; padding-left: 42px; padding-top: 12px; padding-right: 33px; opacity: 1;">Refer a Friend</li>
+                          <hr style="margin-top: 15px;">
+                          <li style="font-size: 14px; color: #1D426D; padding-left: 42px; padding-top: 16px; padding-right: 124px; opacity: 1;">Logout</li>
+                        </ul>
+                    </li></a>
                 </ul>
             </nav>
         </div>
@@ -70,3 +83,13 @@
     </sidebar>
     </div>
 </body>
+<style type="text/css">
+    a:hover ul.dropdown_menu {
+       display: block;
+   }
+   
+   ul.dropdown_menu {
+     display: none;
+   }
+</style>
+</html>
